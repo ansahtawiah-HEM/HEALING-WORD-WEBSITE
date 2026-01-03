@@ -1,74 +1,193 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healing-Word Evangelical Ministry</title>
+  <style>
+    :root {
+      --primary: #6a1b9a; /* Replace with official ministry color */
+      --secondary: #f9a825;
+      --light: #fdf7ff;
+      --dark: #2c2c2c;
+    }
 
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: var(--primary);
+    }
+
+    .hero {
+      background: url('hero-placeholder.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: white;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background: var(--secondary);
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    footer p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <img src="logo-placeholder.png" alt="Healing-Word Logo" />
+  </div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#vision">Vision & Mission</a>
+    <a href="#ministries">Ministries</a>
+    <a href="#events">Events</a>
+    <a href="#sermons">Sermons</a>
+    <a href="#giving">Giving</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Healing-Word Evangelical Ministry</h1>
+  <p>He sent His word and healed them – Psalm 107:20</p>
+  <a href="#contact" class="btn">Join Us</a>
+</section>
 
 <section id="about">
-<h2>About Us</h2>
-<p>Healing-Word Evangelical Ministry is a Christ-centered, Word-based ministry committed to raising spiritually healthy believers through the pure teaching of God's Word and the power of the Holy Spirit.</p>
+  <h2>About Us</h2>
+  <p>Healing-Word Evangelical Ministry is a Christ-centered, Word-based ministry committed to raising spiritually healthy believers through the pure teaching of God's Word and the power of the Holy Spirit.</p>
 </section>
-
 
 <section id="vision">
-<h2>Vision & Mission</h2>
-<div class="grid">
-<div class="card">
-<h3>Our Vision</h3>
-<p>To build a church-planting ministry where believers are spiritually nourished, empowered, and transformed by the Healing Word of God.</p>
-</div>
-<div class="card">
-<h3>Our Mission</h3>
-<p>To RESCUE souls, BUILD believers in Christ, and SERVE God and humanity through the Gospel.</p>
-</div>
-</div>
+  <h2>Vision & Mission</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Our Vision</h3>
+      <p>To build a church-planting ministry where believers are spiritually nourished, empowered, and transformed by the Healing Word of God.</p>
+    </div>
+    <div class="card">
+      <h3>Our Mission</h3>
+      <p>To RESCUE souls, BUILD believers in Christ, and SERVE God and humanity through the Gospel.</p>
+    </div>
+  </div>
 </section>
-
 
 <section id="ministries">
-<h2>Our Ministries</h2>
-<div class="grid">
-<div class="card">Men's Ministry</div>
-<div class="card">Women's Ministry</div>
-<div class="card">Youth & Children</div>
-<div class="card">Evangelism & Outreach</div>
-</div>
+  <h2>Our Ministries</h2>
+  <div class="grid">
+    <div class="card">Men's Ministry</div>
+    <div class="card">Women's Ministry</div>
+    <div class="card">Youth & Children</div>
+    <div class="card">Evangelism & Outreach</div>
+  </div>
 </section>
-
 
 <section id="events">
-<h2>Upcoming Events</h2>
-<p>Check back for upcoming services, crusades, and special programs.</p>
+  <h2>Upcoming Events</h2>
+  <p>Check back for upcoming services, crusades, and special programs.</p>
 </section>
-
 
 <section id="sermons">
-<h2>Sermons</h2>
-<p>Watch, listen, and download life-transforming messages from our ministry.</p>
+  <h2>Sermons</h2>
+  <p>Watch, listen, and download life-transforming messages from our ministry.</p>
 </section>
-
 
 <section id="giving">
-<h2>Giving & Donations</h2>
-<p>Your generosity helps us advance the Gospel. Online giving options will be available soon.</p>
+  <h2>Giving & Donations</h2>
+  <p>Your generosity helps us advance the Gospel. Online giving options will be available soon.</p>
 </section>
-
 
 <section id="blog">
-<h2>Blog & Resources</h2>
-<p>Inspirational articles, devotionals, leadership teachings, and church resources.</p>
+  <h2>Blog & Resources</h2>
+  <p>Inspirational articles, devotionals, leadership teachings, and church resources.</p>
 </section>
-
 
 <section id="contact">
-<h2>Contact Us</h2>
-<p>Healing-Word Evangelical Ministry<br />Achiato, Greater Accra Region, Ghana</p>
-<p>Email: info@healingword.org<br />Phone: +233 XXX XXX XXX</p>
+  <h2>Contact Us</h2>
+  <p>Healing-Word Evangelical Ministry<br />Achiato, Greater Accra Region, Ghana</p>
+  <p>Email: info@healingword.org<br />Phone: +233 XXX XXX XXX</p>
 </section>
 
-
 <footer>
-<p>&copy; 2026 Healing-Word Evangelical Ministry</p>
-<p>Powered by the Healing Word</p>
+  <p>&copy; 2026 Healing-Word Evangelical Ministry</p>
+  <p>Powered by the Healing Word</p>
 </footer>
-
 
 </body>
 </html>
+
+   
